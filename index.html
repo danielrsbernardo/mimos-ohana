@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"  name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mimos Ohana</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <script src="js/script.js" defer></script>
+
+<body >
+    <header>
+
+        <div id="brand"> <img src="img/logo.png"> </div>
+        <div id="title">
+            <span class="blue">M</span>
+            <span class="red">I</span>
+            <span class="yellow">M</span>
+            <span class="green">O</span>
+            <span class="purple">S</span>
+            <span>&nbsp;</span>
+            <span class="orange">O</span>
+            <span class="pink">H</span>
+            <span class="gray">A</span>
+            <span class="brown">N</span>
+            <span class="white">A</span>
+        </div>
+        <div id="send-message">
+            <p>Envie-nos uma mensagem</p>
+            <a href="https://api.whatsapp.com/send?phone=5519999966770"><i class="bi bi-whatsapp"></i></a>
+        </div>
+
+    </header>
+
+    <section id="main">
+      <h2 class="title">Aqui está algum de nossos trabalhos!!!  </h2>
+
+      <div id="slider">
+
+      </div>
+    </section>
+
+    <section id="contact-form">
+
+      <h3 id="purchase-value">Valor: R$ <span>0,00</span></h3>
+      <p>R$39,90 cada</p>
+      <form>
+        <div class="form-control">
+          <label for="diary-type">
+            <span>Tipo de agenda</span>
+            <select id="diary-type">
+              <option value="">Selecione</option>
+              <option value="one">1 página por dia</option>
+              <option value="two">2 páginas por dia</option>
+            </select>
+          </label>
+        </div>
+        <div class="form-control">
+          <label for="capa-name" required>
+            <span>Qual nome será usado na capa?</span>
+            <input type="text" id="capa-name" required>
+          </label>
+        </div>
+        <div class="form-control">
+          <label for="qtde" required>
+            <span>Quantidade:</span>
+            <input type="number" id="quantity" required min="0">
+          </label>
+        </div>
+
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+
+
+</body>
+
+</html>
